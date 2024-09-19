@@ -9,28 +9,32 @@ public class FindWord {
 		String find="Bali";
 		Boolean r=words.contains(find);
 		System.out.println(r);
-		
-		int count=0;
+		//logic of contains
+	 words=words.toLowerCase();
+	 find=find.toLowerCase();
+	int count=0;
 		for(int i=0;i<words.length();i++)
 		{
-			if(find.charAt(0)==words.charAt(i)) {
+			if(words.charAt(i)==find.charAt(0))
+			{
 				count=0;
 				for(int j=0;j<find.length();j++)
 				{
-					if(words.charAt(i)==find.charAt(j))
+					if(find.charAt(j)==words.charAt(i))
 					{
-					count++;
-					i++;
+						count++;
+						i++;
 					}
 				}
-				if(count==find.length()){
-	System.out.println("Yes we can see the word");}
-				
+				if(count==find.length())
+				{
+					System.out.println("we have fond the word");
+				}
 			}
-		}
-		if(count==0)
-		{
-			System.out.println("the word is not present in this sentence");
+			if(count==0)
+			{
+				System.out.println("the word is not there");
+			}
 		}
 	}
 
