@@ -32,7 +32,6 @@ public class FileHandling {
 		//read the data from the file
 		FileReader reader=new FileReader("file.txt");
 		BufferedReader breader=new BufferedReader(reader);
-		
 		String data=breader.readLine();
 		System.out.println("read data : "+data);
 		
