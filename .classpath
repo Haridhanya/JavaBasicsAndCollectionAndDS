@@ -36,21 +36,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Hari/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar" sourcepath="C:/Users/Hari/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0-sources.jar">
+	<classpathentry kind="lib" path="C:/Users/Hari/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar" sourcepath="C:/Users/Hari/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6-sources.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.checkerframework"/>
-			<attribute name="maven.artifactId" value="checker-qual"/>
-			<attribute name="maven.version" value="3.42.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Hari/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar" sourcepath="C:/Users/Hari/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.xmlbeans"/>
-			<attribute name="maven.artifactId" value="xmlbeans"/>
-			<attribute name="maven.version" value="5.2.1"/>
+			<attribute name="maven.groupId" value="com.github.docker-java"/>
+			<attribute name="maven.artifactId" value="docker-java-transport"/>
+			<attribute name="maven.version" value="3.3.6"/>
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
